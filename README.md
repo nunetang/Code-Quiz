@@ -1,7 +1,7 @@
 # Code-Quiz
 Simple Javascript coding timed quiz.
 
-<img src="images/codeQuiz.PNG">
+<img src="codeQuiz.PNG">
 
 ##Description
 
