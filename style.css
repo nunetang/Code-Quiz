@@ -1,0 +1,51 @@
+html, body {
+    background-color:gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1, h2 {
+    color: black;
+}
+
+a, span {
+    color: whitesmoke;
+}
+
+#score-list {
+    font-size: 1.2rem;
+    color: dimgrey;    
+}
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li;
+}
+
+li::before {
+    content: "." counter(li);
+    color: purple;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1.5rem;
+    margin-right: 0.5rem;
+    text-align: right;
+    direction: rtl;
+    border-color: purple;
+    border: 5px;
+}
+
+hr {
+    height: 2px;
+    background-color: purple;
+}
+
+#scoresTitle {
+    padding-left: 1rem;
+}
+
+.btn{
+    background-color: #553C7B;
+    color: white;
+}
